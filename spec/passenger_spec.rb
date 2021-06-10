@@ -18,7 +18,7 @@ RSpec.describe Passenger do
     end
 
     it 'can assign and check if driver' do
-      expect(@charlie.adult?).to eq(false)
+      expect(@charlie.driver?).to eq(false)
 
       @charlie.drive
 
